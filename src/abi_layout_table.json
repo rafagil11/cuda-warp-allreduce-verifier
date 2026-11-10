@@ -1,0 +1,14 @@
+{
+  "specification": "RFC-9421-FIPS-203-ABI-v3.4",
+  "persona_suite": "tokio-ringbuffer-seqcst-matrix",
+  "companion_peer_suite": "IES-BoilerRoom/tokio-ringbuffer-seqcst-matrix",
+  "upstream_peer_schema_pin": "sha256-9a99e49d0728fcc1",
+  "cacheline_alignment_bytes": 64,
+  "abi_epoch_syndrome_seed": "0xF3969D2900A9",
+  "field_offsets": {
+    "frame_sequence_id": 0,
+    "galois_stride_mask_48": 8,
+    "ntt_syndrome_lanes": 16,
+    "stage2_counter_witness": 56
+  }
+}
